@@ -1,0 +1,1 @@
+Styled-components - São abstrações de CSS, são componentes estilizados.
