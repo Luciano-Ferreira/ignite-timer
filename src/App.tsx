@@ -1,37 +1,18 @@
-import { useState } from 'react';
-import { ThemeProvider } from 'styled-components';
-import { Button } from './components/Button';
+import { ThemeProvider } from 'styled-components'
+import { Button } from './components/Button'
 
-import { GlobalStyle } from './styles/global';
-import { defaultTheme } from './styles/themes/default';
+import { GlobalStyle } from './styles/global'
+import { defaultTheme } from './styles/themes/default'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <ThemeProvider theme={defaultTheme}>
-     <Button
-      variant='primary'
-     >
-      Enviar
-     </Button>
-     <Button
-      variant='secondary'
-     >
-      Enviar
-     </Button>
-     <Button
-      variant='danger'
-     >
-      Enviar
-     </Button>
-     <Button
-      variant='success'
-     >
-      Enviar
-     </Button>
+      <Button variant="primary">Enviar</Button>
+      <Button variant="secondary">Enviar</Button>
+      <Button variant="danger">Enviar</Button>
+      <Button variant="success">Enviar</Button>
 
-     <GlobalStyle />
+      <GlobalStyle />
     </ThemeProvider>
   )
 }
