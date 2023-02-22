@@ -1,3 +1,0 @@
-filtro não precisa ser um estado para evitar muitos re-renders.
-https://app.rocketseat.com.br/node/projeto-02/group/funcionalidades-da-aplicacao/lesson/o-hook-use-effect
-nessa aula o diego vai afundo no hook useEffect e mostra que ele bem util para requisições a API, mas para filtrar essa lista de repositorios não é necessario utilizar um estado basta adicionar a uma variavel, então temos que ficar espertos se a aplicação em que estamos criando está dando renders desnecessários.
